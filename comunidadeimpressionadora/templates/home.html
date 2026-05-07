@@ -2,7 +2,33 @@
 
 {% block body %}
 
-        <h1>ègua</h1>
+        <div class="container mt-3">
+            <h1 style="color: orange">Comunidade Impressionadora</h1>
+            <h2>Alunos, experts e a galera da Hashtag em um só lugar</h2>
+            <hr>
+            {% for post in posts %}
+                <div class="row border mt-4 p-3 meupost">
+                    <div class="col col-3">
+                        <div class="image pe-2"> <img src="{{ url_for('static', filename='fotos_perfil/{}'.format(post.autor.photo_perfil)) }}" class="rounded" width="200"> </div>
+                        <strong>{{ post.autor.username }}</strong>
+
+                        <div class="row justify-content-center">
+                            {% for courses in post.autor.courses.split(';') %}
+                                <button type="button" class="btn btn-success mt-2" disabled>{{ courses }}</button>
+                            {% endfor %}
+                        </div>
+
+                    </div>
+                    <div class="col col-9">
+                        <a style="text-decoration: none" href="{{ url_for('exibir_post', post_id=post.id) }}">
+                            <h3>{{ post.title }}</h3>
+                        </a>
+                        <p>{{ post.body }}</p>
+                    </div>
+                </div>
+            {{ posts }}
+            {% endfor %}
+        </div>
 
 {% endblock %}
 

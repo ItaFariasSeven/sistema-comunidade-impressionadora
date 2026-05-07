@@ -11,7 +11,7 @@
                 <form method="POST" action="" class="border p-4 mt-2">
                     {{ form_login.csrf_token }}
                     <legend>Login</legend>
-                    <fildset>
+                    <fieldset>
                         <div class="form-group">
                             {{ form_login.email.label(class="form-control.label") }}
 
@@ -47,7 +47,7 @@
                             {{ form_login.remember_data.label(class="form-check-label") }}
                             {{ form_login.remember_data(class="form-check-input") }}
                         </div>
-                    </fildset>
+                    </fieldset>
                     {{ form_login.button_submit_login(class="btn-primary mt-2") }}
                 </form>
             </div>
