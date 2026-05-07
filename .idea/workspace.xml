@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da15ca52-341e-4bc3-9073-a5ea99ab3332" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/comunidadeimpressionadora/static/fotos_perfil/default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comunidadeimpressionadora/static/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/criarpost.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/editarperfil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/perfil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/templates/usuarios.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/usuarios.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instance/comunidade.db" beforeDir="false" afterPath="$PROJECT_DIR$/instance/comunidade.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criar_banco.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instance/comunidade.db" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,7 +318,7 @@
       <workItem from="1777913259881" duration="528000" />
       <workItem from="1777913933444" duration="4755000" />
       <workItem from="1777979168562" duration="34704000" />
-      <workItem from="1778152908281" duration="611000" />
+      <workItem from="1778152908281" duration="3018000" />
     </task>
     <servers />
   </component>
